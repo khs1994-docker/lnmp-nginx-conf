@@ -8,6 +8,6 @@ COPY php-demo.conf /etc/nginx/conf.d/
 
 COPY --from=0 /app /app
 
-COPY example/wait-for-php.sh /wait-for-php.sh
+COPY wait-for-php.sh /wait-for-php.sh
 
 CMD ["/wait-for-php.sh"]
