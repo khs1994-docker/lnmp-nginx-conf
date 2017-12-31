@@ -4,6 +4,8 @@ FROM nginx:1.13.8-alpine
 
 RUN rm -rf /etc/nginx/conf.d
 
+COPY nginx.conf.default /etc/nginx/nginx.conf
+
 COPY demo-php.conf /etc/nginx/conf.d/
 
 COPY --from=0 /app /app
