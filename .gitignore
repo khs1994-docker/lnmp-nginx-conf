@@ -9,3 +9,4 @@
 !wait-for-php.sh
 !Dockerfile
 !Dockerfile.linuxkit
+!nginx.conf.default
