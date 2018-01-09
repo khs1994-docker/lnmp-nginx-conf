@@ -5,8 +5,8 @@
 !demo-php.conf
 !demo-wechat.conf
 !demo-wechat-mini.conf
+!demo-ssl.conf
 !README.md
 !wait-for-php.sh
 !Dockerfile
-!Dockerfile.linuxkit
 !nginx.conf.default
