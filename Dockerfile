@@ -1,4 +1,4 @@
-FROM khs1994/php-fpm:swarm-7.2.0-alpine3.7
+FROM khs1994/php-fpm:swarm-7.2.1-alpine3.7
 
 FROM nginx:1.13.8-alpine
 
