@@ -1,11 +1,6 @@
 /*
 !.gitignore
-!demo-ssl
-!demo-laravel.conf
-!demo-php.conf
-!demo-wechat.conf
-!demo-wechat-mini.conf
-!demo-ssl.conf
+!demo-*
 !README.md
 !wait-for-php.sh
 !Dockerfile
