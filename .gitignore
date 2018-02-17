@@ -5,3 +5,5 @@
 !wait-for-php.sh
 !Dockerfile
 !nginx.conf.default
+!auth
+!docker_registry_ssl
