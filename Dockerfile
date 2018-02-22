@@ -1,6 +1,6 @@
 FROM khs1994/php-fpm:swarm-7.2.2-alpine3.7
 
-FROM nginx:1.13.9-alpine
+FROM khs1994/nginx:1.13.9-tls1.3-stretch
 
 RUN rm -rf /etc/nginx/conf.d
 
