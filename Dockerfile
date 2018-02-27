@@ -1,6 +1,10 @@
 FROM khs1994/php-fpm:swarm-7.2.2-alpine3.7
 
-FROM khs1994/nginx:1.13.9-tls1.3-stretch
+# FROM khs1994/nginx:1.13.9-tls1.3-stretch
+
+# Debian 镜像缺少网络相关工具，这里为了方便测试 LinuxKit 继续使用 Alpine 镜像
+
+FROM nginx:1.13.9-alpine
 
 RUN rm -rf /etc/nginx/conf.d
 
