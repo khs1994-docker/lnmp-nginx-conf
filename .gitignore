@@ -9,3 +9,4 @@
 !docker_registry_ssl
 !.env
 !docker-compose.yml
+!*.config
