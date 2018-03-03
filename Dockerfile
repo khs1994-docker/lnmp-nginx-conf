@@ -8,7 +8,7 @@ FROM nginx:1.13.9-alpine
 
 RUN rm -rf /etc/nginx/conf.d
 
-COPY nginx.conf.default /etc/nginx/nginx.conf
+ADD https://github.com/khs1994-docker/lnmp/blob/master/config/etc/nginx/nginx.production.conf /etc/nginx/nginx.conf
 
 COPY demo-php.conf /etc/nginx/conf.d/
 
