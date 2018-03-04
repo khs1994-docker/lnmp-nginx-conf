@@ -1,8 +1,0 @@
-version: "3.5"
-
-services:
-  nginx:
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    image: khs1994/nginx:swarm-${NGINX_VERSION}-alpine
