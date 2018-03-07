@@ -54,4 +54,8 @@ server {
       proxy_set_header  X-Forwarded-Proto $scheme;
       proxy_read_timeout                  900;
     }
+
+    location ~.*\.(gif|jpg|jpeg|png|bmp|swf|js|css)$ {
+        access_log off;
+    }
 }
