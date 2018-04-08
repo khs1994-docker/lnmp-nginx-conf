@@ -5,3 +5,4 @@
 !ssl-self
 !demo-*
 !wait-for-php.sh
+!fzjh.conf
