@@ -7,3 +7,4 @@
 !wait-for-php.sh
 !fzjh.conf
 !gogs.config
+!minio.config
